@@ -1,0 +1,21 @@
+<li
+  [ngClass]="{
+    'bg-light': index % 2 == 1,
+    'bg-gradien': index % 2 == 1,
+    'border-0': index % 2 == 1
+  }"
+  class="d-flex justify-content-between align-items-center flex-nowrap list-group-item bg-light bg-gradien border-0"
+>
+  <span class="text-break me-3">{{ rate.currency }}</span>
+  <div
+    class="d-flex flex-row justify-content-between align-items-center divSize"
+  >
+    <img
+      [ngStyle]="{ 'height.px': imageSize }"
+      src="{{ rate.imgUrl }}"
+      alt="flaga"
+      class="border border-dark me-3"
+    />
+    <span class="d-block">{{ rate.mid }}</span>
+  </div>
+</li>

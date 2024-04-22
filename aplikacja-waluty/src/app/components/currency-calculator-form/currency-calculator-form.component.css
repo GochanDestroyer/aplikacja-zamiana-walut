@@ -1,0 +1,31 @@
+.arrows {
+  height: 40px;
+}
+
+.arrowsButton {
+  background: transparent;
+  border: none;
+}
+
+.arrowsAnimation:focus {
+  animation-name: rotateArrows;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+}
+
+@media only screen and (min-width: 1000px) {
+  .currencyForm {
+    width: 800px;
+  }
+}
+
+@keyframes rotateArrows {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}

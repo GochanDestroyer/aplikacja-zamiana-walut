@@ -1,0 +1,35 @@
+Produkty: 
+https://dummyjson.com/docs/products
+
+Osoby:
+https://randomuser.me/documentation#intro
+https://www.mockaroo.com/
+https://danetestowe.pl/generator/osobowe
+
+Pogoda:
+https://openweathermap.org/guide
+https://www.meteomatics.com/en/weather-api/
+https://www.weatherapi.com/
+
+----------------------------------------------
+Aplikacja do pobierania kursów walut
+- komponenty - zrobione
+- nawigacja (rooting) - zrobione
+- serwisy - zrobione
+- ngFor - zrobione
+- api - zrobione
+- input - zrobione
+- ngStyle - zrobione
+- ngClass - zriobione
+- obsługa formularzy - zrobione
+- ngIf - zrobione
+- output - zrobione
+
+https://api.nbp.pl/ - api kursy walut
+https://quickchart.io/ - tworzenie diagramów
+https://currency-flags.as93.net/ - flagi po skrócie waluty
+
+https://stackblitz.com/@Belfer317a
+https://jsonplaceholder.typicode.com/
+
+https://stackoverflow.com/questions/66693555/how-to-get-behavioursubject-value-in-other-component-if-i-type-the-component-url - pobranie danych z api

@@ -1,0 +1,14 @@
+main {
+  min-height: calc(100vh - 56px * 2);
+}
+
+.display {
+  width: 75%;
+  max-width: 1000px;
+}
+
+@media only screen and (max-width: 600px) {
+  .display {
+    width: 100%;
+  }
+}

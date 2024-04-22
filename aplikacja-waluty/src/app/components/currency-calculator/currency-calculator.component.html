@@ -1,0 +1,21 @@
+<main class="bg-secondary p-3 pt-5 pb-5">
+  <app-currency-calculator-form
+    class="w-100 d-flex align-items-center justify-content-center"
+    (sendResult)="onResultSend($event)"
+  ></app-currency-calculator-form>
+  <div *ngIf="receivedResult != ''" class="d-flex justify-content-center">
+    <div class="card mt-4 display">
+      <p
+        *ngIf="numberToCheck > 0 && receivedResult != ''; else elseBlock"
+        class="text-center mt-3"
+      >
+        {{ receivedResult }}
+      </p>
+      <ng-template #elseBlock>
+        <p class="text-danger text-center mt-3 mb-3 me-2 ms-2">
+          Podano niepoprawną wartość lub pole jest puste.
+        </p>
+      </ng-template>
+    </div>
+  </div>
+</main>

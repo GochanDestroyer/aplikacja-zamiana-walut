@@ -1,0 +1,10 @@
+<ul class="list-group">
+  <li class="list-group-item text-center pt-3 pb-3 active">
+    Kursy walut w przecileczniu na złotego
+  </li>
+  <app-rates-list-element
+    *ngFor="let rate of rates; let i = index"
+    [rate]="rate"
+    [index]="i"
+  ></app-rates-list-element>
+</ul>
