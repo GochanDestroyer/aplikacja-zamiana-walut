@@ -1,8 +1,8 @@
-<form class="d-flex flex-column justify-content-center text-white currencyForm">
+<form class="d-flex flex-column justify-content-center text-white w-100 currencyForm">
   <div class="d-flex">
     <div class="form-group w-50">
       <label for="currency1" class="mb-1">Waluta do zamiany</label>
-      <select #selectCurrency1 class="form-control" id="currency1">
+      <select #selectCurrency1 class="form-control w-100" id="currency1">
         @for (select1Element of select1Elements; track i; let i = $index) {
         @if(i == indexInSelect){
         <option selected>{{ select1Element }}</option>
