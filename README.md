@@ -1,6 +1,8 @@
 # Aplikacja w Angularze do zamiany walut 
 [Otwórz projekt na Stackblitz ⚡️](https://stackblitz.com/~/github.com/GochanDestroyer/aplikacja-zamiana-walut)
 
+Aplikacja wykonana została w Angularze z wykorzystaniem Bootstrap'a do jej ostylowania.
+
 Niżej znajdziesz opis poszczególnych podstron.
 
 ## Kursy
